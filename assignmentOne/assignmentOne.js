@@ -31,7 +31,6 @@ function changeLink() {
 
     resume=false;
   }
-
   
 }
 
