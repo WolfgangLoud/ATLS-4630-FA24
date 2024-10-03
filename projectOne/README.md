@@ -30,5 +30,5 @@ Your goals for the project should be split up by what you think are goals for:
         Three simple recepies, with abstracted illustration (2d primitive shapes)
 
     Stretch goals:
-        Five recepies, More advanced illustrations such has custom drawings for each recipie
+        Five recepies, More advanced illustrations such has custom drawings for each recipe
 
