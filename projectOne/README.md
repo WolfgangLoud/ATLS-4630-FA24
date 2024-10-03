@@ -1,7 +1,7 @@
 Mile Stone One:
 --------------------------------
 Overall description of the project:
-    I would like to make a website that uses anime.js to illustrate recipes to a user through the use of scrolly-telling. The website would aim to make simple recipes even simpler, the intended audience would be children, or people that are very new to cooking and want to experiment with super easy recipes. One inspiration that I had for this project is Atmos, I really like how as you scroll the airplane flies through different facts.I thought that it was a super inventive way to format a website.
+    I would like to make a website that uses anime.js to illustrate recipes to a user through the use of scrolly-telling. The website would aim to make simple recipes even simpler, the intended audience would be children, or people that are very new to cooking and want to experiment with super easy recipes. One inspiration that I had for this project is [Atmos](https://atmos.leeroy.ca), I really like how as you scroll the airplane flies through different facts.I thought that it was a super inventive way to format a website.
 
 Wireframe that shows the design and flow of your site:
     my hand drawn sketches:
