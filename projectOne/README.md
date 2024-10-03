@@ -22,6 +22,7 @@ Describe or show how you intend to make the website responsive to different scre
     I plan on using window.matchMedia() in the javascript, I will check if a window has been resized and if so I will resize the content. 
 
 Your goals for the project should be split up by what you think are goals for:
+    
     Prototyping/proof of concept:
         Drop down menue to select recipie as well as unanimated recipies layed out in scroll friendly format
 
