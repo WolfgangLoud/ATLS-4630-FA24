@@ -41,7 +41,7 @@ Up to now I have focused my efforts on designing the layout of my website and le
 
 I have also been learning about how to install and animate using Anime.js. For my project most of the animation will be done through scrolling. In order to accomplish this I think I am going to time amount my animations to the scroll percents of the page, as long as I am easily able to animate based on user scroll the project should ocme together nicely. Below is a link to some test animation I created using Anime.js.
 
-[Test Animations](https://www.figma.com/design/3hf3KFyFOf3J5LMHdvjCjM/HF-recipease?node-id=9-356&t=OJBx5Z9oOokUOUbk-1)
+[Test Animations](https://github.com/WolfgangLoud/ATLS-4630-FA24/blob/b36f2f6484d9c084770dc13e1b81cc8aa6c3c6a0/projectOne/main.js)
 
 Finally, one thing I have decided to change about my project is the scope. Instead of having my MVP be three recipes I think I will start with one and focus on rendering better animations. My stretch goal will then be three recipes that users can pick from. I decided that the most tedious part of the project is going to be all the illustraitions and limiting this should give me a lot more time to focus on whats important.
 
