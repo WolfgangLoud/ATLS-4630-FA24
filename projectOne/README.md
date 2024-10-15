@@ -39,7 +39,7 @@ Up to now I have focused my efforts on designing the layout of my website and le
 
 [Mock Up](https://www.figma.com/design/3hf3KFyFOf3J5LMHdvjCjM/HF-recipease?node-id=9-356&t=OJBx5Z9oOokUOUbk-1)
 
-I have also been learning about how to install and animate using Anime.js. For my project most of the animation will be done through scrolling. In order to accomplish this I think I am going to time amount my animations to the scroll percents of the page, as long as I am easily able to animate based on user scroll the project should ocme together nicely. Below is a link to some test animation I created using Anime.js.
+I have also been learning about how to install and animate using Anime.js. For my project most of the animation will be done through scrolling. In order to accomplish this I think I am going to time amount my animations to the scroll percents of the page, as long as I am easily able to animate based on user scroll the project should ocme together nicely. Below is a link to some test code I created using Anime.js.
 
 [Test Animations](https://github.com/WolfgangLoud/ATLS-4630-FA24/blob/b36f2f6484d9c084770dc13e1b81cc8aa6c3c6a0/projectOne/main.js)
 

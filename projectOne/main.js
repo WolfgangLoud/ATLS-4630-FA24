@@ -25,7 +25,6 @@ const offset1 = 300;
 
 
 
-
 const animateScroll = function(div, speed=100, offset=0){
   const scrollPercent = window.scrollY-div.offsetTop
   return((scrollPercent+offset)/speed);
