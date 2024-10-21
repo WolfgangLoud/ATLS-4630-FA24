@@ -13,24 +13,35 @@ import anime from 'animejs/lib/anime.es.js';
 
 // const X = getOffsetTop(someElement);
 
-const section2= document.querySelector("#section-two");
+const mixImgAnimate= document.querySelector("#mixImageBox")
 
 
-const animation = anime({targets:".img"
-, translateX: 3000, duration: 4000, autoplay: false}
+const milkAnimation = anime({targets:"#milk"
+, translateX: -500, duration: 4000, autoplay: false}
 )
+//scrollHeight-clientHeight-scrollTop
+
+// const butterAnimation = anime({targets:"#butter"
+//   , translateX: -600, duration: 4000, autoplay: false}
+// )
 
 const speed1 = 800;
-const offset1 = 300;
 
 
 
-const animateScroll = function(div, speed=100, offset=0){
-  const scrollPercent = window.scrollY-div.offsetTop
-  return((scrollPercent+offset)/speed);
+
+
+
+const animateScroll = function(div, speed=100, offset=-500)
+{
+  
+  // const scrollPercent = window.scrollY-div.offsetTop
+  const itemAtTop=div.getBoundingClientRect();
+  console.log(itemAtTop.y);
+  return((itemAtTop.y+offset)/speed);
 }
 
 window.onscroll = function() {
-  animation.seek(animateScroll(section2,speed1,offset1) * animation.duration);
+  milkAnimation.seek(animateScroll(mixImgAnimate,speed1) * milkAnimation.duration);
 } 
 
