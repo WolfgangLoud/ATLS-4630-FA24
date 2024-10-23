@@ -352,7 +352,7 @@ function batterPour(){
   anime({
     targets: '#ellipsePancake',
     opacity:[0,1],
-    duration: 4000,
+    duration: 2000,
     easing: 'linear',
   })
 }
