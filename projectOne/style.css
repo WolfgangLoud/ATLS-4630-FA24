@@ -283,7 +283,8 @@ body {
   font-family: 'Cherry Bomb One';
   font-weight: 400;
   word-wrap: break-word;
-  margin-top: 35rem;
+  margin-top: 30rem;
+  margin-bottom: 12rem;
 }
 
 .body-text {

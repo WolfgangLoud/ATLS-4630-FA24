@@ -465,6 +465,12 @@ function flip(){
       flip2();
     }
   });
+  anime({
+    targets: '#skillet4',
+    rotate: [0,30],
+    duration: 1000,
+    easing: 'linear',
+  });
 }
 
 function flip2(){
@@ -477,6 +483,12 @@ function flip2(){
     complete: function(){
       pColor();
     }
+  });
+  anime({
+    targets: '#skillet4',
+    rotate: [30,0],
+    duration: 1000,
+    easing: 'linear',
   });
 }
 
