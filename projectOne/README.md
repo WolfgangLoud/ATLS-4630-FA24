@@ -32,9 +32,9 @@ Your goals for the project should be split up by what you think are goals for:
     Stretch goals:
         Five recepies, More advanced illustrations such has custom drawings for each recipe
 
-
+---------------------------------------------------------------------------------------------------------------
 Mile Stone Two:
---------------------------------
+
 Up to now I have focused my efforts on designing the layout of my website and learning the basics of Anime.js. Through learning figma I have created a "high fidelity" mock up of my webpage that resembles what I would like my page to look like.
 
 [Mock Up](https://www.figma.com/design/3hf3KFyFOf3J5LMHdvjCjM/HF-recipease?node-id=9-356&t=OJBx5Z9oOokUOUbk-1)
@@ -44,6 +44,17 @@ I have also been learning about how to install and animate using Anime.js. For m
 [Test Animations](https://github.com/WolfgangLoud/ATLS-4630-FA24/blob/b36f2f6484d9c084770dc13e1b81cc8aa6c3c6a0/projectOne/main.js)
 
 Finally, one thing I have decided to change about my project is the scope. Instead of having my MVP be three recipes I think I will start with one and focus on rendering better animations. My stretch goal will then be three recipes that users can pick from. I decided that the most tedious part of the project is going to be all the illustraitions and limiting this should give me a lot more time to focus on whats important.
+
+-------------------------------------------------------------------------------------------------------------------
+Mile Stone Three:
+
+After altering my MVP reaching my goal became a lot more obtainable. I have never animated anything in JavaScript before and I found it to be a tedious process. Anime.js as a library was pretty intuitive and the documentation was very helpful, however I just found there to be a lot of repitition in terms of calling the anim function, especially upon the completion of other anime functions. 
+
+Getting animations to trigger upon scroll was very anoying, especially when trying to calculate things from offset top using the div locations. The solution that I found was another library called waypoint. This library is Awesome! It would target the dive and use a handler based on scroll direction. If the user was scrolling downwards and it reaches the waypoint it could trigger the code inside, in this case an anime function.
+
+The website has a few kinks that would ideally be straightend out, however due to the amount of work involved in this project I am not so sure they will be. For one the website will not work on mobile devices as there is too much reliance on absolute position and more planning from the beginning would have been necessary to implement this. Also having animations not trigger once they have been triggered once would helo with user experience of the site. Overall I'm happy with the way this site turned out and I learned alot in through the development process.
+
+[Project One Deployment](https://atls-4630-fa-24-5742.vercel.app/)
 
 
 
