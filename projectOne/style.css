@@ -3,32 +3,59 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
+
 
 .image{
   width:10rem;
+  opacity: 0;
 }
 
 #milk{
   position: absolute;
-  top: 175%;
-  left: 120%;
+  top: 125%;
+  left: 80%;
+
 }
 
 #butter{
   position: absolute;
-  top: 175%;
-  left: 50%;
+  top: 125%;
+  left: 45%;
+
 }
 
 #p-mix{
   position: absolute;
-  top: 175%;
+  top: 125%;
   left: 10%;
+
 }
 
 
+#milk-pour{
+  position: absolute;
+  /* rotate: 25%; */
+  left: 50%;
+  top: 239%;
+}
 
+#flour-pour{
+  position: absolute;
+  left: 42%;
+  top: 233%;
+  transform: rotate(-15deg);
+  scale: .75;
+}
+
+#bowl2{
+  scale: 1.5;
+}
+
+#fork2{
+  scale: .6;
+}
 
 #fork{
   width: 5rem;
@@ -37,6 +64,128 @@ body {
 #butter-slice{
   width: 1.75rem;
 }
+
+#Heat{
+  margin-top: 6rem;
+}
+#butterMelt{
+  position: absolute;
+  top: 530%;
+  left: 47%;
+  scale: .8;
+}
+
+#skillet{
+  position: absolute;
+  scale: 3;
+  left:50%;
+  top: 533%;
+}
+
+#butter2{
+  position: absolute;
+  top: 483%;
+  left: 40%;
+}
+#butterSlice{
+  position: absolute;
+  scale: .18;
+  top: 450.5%;
+  left: 45%;
+
+}
+
+#spatula{
+  scale: 2;
+}
+
+#skillet2{
+  position: absolute;
+  scale: 3;
+  left: 35%;
+  top: 650%;
+}
+
+#bowl3{
+  position: absolute;
+  scale: 2;
+  left: 65%;
+  top: 650%;
+}
+
+#butter_melt2{
+  position: absolute;
+  scale: .8;
+  left: 32%;
+  top: 647%;
+}
+
+#milk_pour2{
+  position: absolute;
+  scale:2;
+  left: 45%;
+  top: 650%;
+}
+
+#ellipsePancake{
+  height: 115px;
+  width: 220px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 692%;
+  left:39%;
+  /* opacity: 1; */
+  rotate: -12deg;
+}
+
+
+#skillet3{
+  position: absolute;
+  scale: 3;
+  left: 48%;
+  top: 800%;
+}
+
+#ellipsePancake2{
+  height: 115px;
+  width: 220px;
+  border-radius: 50%;
+  background-color: white;
+  /* opacity: 1; */
+  rotate: -12deg;
+  position: absolute;
+  left: 43%;
+  top: 799%;
+}
+
+#skillet4{
+  position: absolute;
+  scale: 3;
+  left: 48%;
+  top: 950%;
+}
+
+#ellipsePancake3{
+  height: 115px;
+  width: 220px;
+  border-radius: 50%;
+  background-color: #f5dd42;
+  /* opacity: 1; */
+  rotate: -12deg;
+  position: absolute;
+  left: 43%;
+  top: 949%;
+}
+
+#butter_melt3{
+  position: absolute;
+  scale: .6;
+  left: 45%;
+  top: 945%;
+}
+
+
 .logo-box {
   display: flex;
   flex-direction: row;
@@ -118,10 +267,13 @@ body {
   margin-left: 2.5rem;
   margin-bottom: 1rem;
   margin-top: 25rem;
-
+  opacity: 0;
 }
 #Mix{
-  margin-top: 12rem;
+  margin-top: 35rem;
+}
+#Cook{
+  margin-top: 35rem;
 }
 
 #Enjoy {
@@ -131,6 +283,7 @@ body {
   font-family: 'Cherry Bomb One';
   font-weight: 400;
   word-wrap: break-word;
+  margin-top: 35rem;
 }
 
 .body-text {
