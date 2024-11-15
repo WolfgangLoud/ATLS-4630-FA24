@@ -1,0 +1,28 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: beige;
+
+
+}
+
+.lists-container{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-list{
+  background-color: azure;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 0;
+}
+
+.product-list-item{
+  background-color: beige;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 0;
+}
