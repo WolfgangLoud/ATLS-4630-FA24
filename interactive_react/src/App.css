@@ -8,6 +8,10 @@
   position: relative;
 }
 
+.title{
+  position: absolute;
+  top: 25%;
+}
 .content {
   position: absolute;
   top: 50%;
