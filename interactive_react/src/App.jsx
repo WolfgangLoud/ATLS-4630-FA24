@@ -1,16 +1,25 @@
 import "./App.css";
 import Dropdown from "./Dropdown";
+import DropdownItem from "./DropdownItem";
 
-export default function App(){
-  const items = [1,2,3,4,5,6,7,8]
+export default function App() {
+  
+  const items = ["cat", "dog", "meow", "woof", "bark"];
 
-  return(
+  return (
     <div className="App">
       <div className="content">
         <Dropdown 
-        buttonText="Dropdown button" content={<p>Hello World</p>}/>
+          buttonText="Dropdown button" 
+          content={
+            <>
+              {items.map((item) => (
+                <DropdownItem key={item} item={item}/>
+              ))}
+            </>
+          }
+        />
       </div>
     </div>
-  )
-
+  );
 }

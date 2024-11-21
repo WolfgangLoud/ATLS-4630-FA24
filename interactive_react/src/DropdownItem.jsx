@@ -1,8 +1,10 @@
 import React from 'react'
 
-const DropdownItem = () => {
+import "./App.css"
+
+const DropdownItem = ({item, onClick}) => {
   return (
-    <div>DropdownItem</div>
+    <div className='dropdown-item' onClick={onClick}>{item}</div>
   )
 }
 
